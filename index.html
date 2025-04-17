@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aandelen Analyse App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Aandelen Analyse</h1>
+    <input type="text" id="tickerInput" placeholder="Voer ticker in (bijv. AAPL)" />
+    <button onclick="analyseerAandeel()">Analyseer</button>
+    <div id="result"></div>
+  </div>
+  <label><input type="checkbox" id="brandRecognition" /> Merk is bekend (brand recognition)</label><br />
+<label><input type="checkbox" id="loyalCustomers" /> Klanten zijn loyaal</label><br />
+<label>Persoonlijk gevoel:<br />
+  <textarea id="personalFeeling" rows="3" cols="40" placeholder="Wat vind je zelf van dit aandeel?"></textarea>
+</label><br /><br />
+
+  <script src="script.js"></script>
+</body>
+</html>

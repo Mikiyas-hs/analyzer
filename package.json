@@ -1,0 +1,25 @@
+{
+  "name": "analyzer",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikiyas-hs/analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikiyas-hs/analyzer/issues"
+  },
+  "homepage": "https://github.com/Mikiyas-hs/analyzer#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  }
+}
